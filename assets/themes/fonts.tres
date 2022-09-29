@@ -1,0 +1,44 @@
+[gd_resource type="Theme" load_steps=5 format=2]
+
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://assets/fonts/American Captain.otf"
+
+[sub_resource type="DynamicFont" id=2]
+font_data = SubResource( 1 )
+
+[sub_resource type="DynamicFontData" id=3]
+font_path = "res://assets/fonts/American Captain.otf"
+
+[sub_resource type="DynamicFont" id=4]
+font_data = SubResource( 3 )
+
+[resource]
+Button/fonts/font = SubResource( 2 )
+CheckBox/fonts/font = null
+CheckButton/fonts/font = null
+ColorPickerButton/fonts/font = null
+Fonts/fonts/large = null
+Fonts/fonts/normal = null
+GraphNode/fonts/title_font = null
+ItemList/fonts/font = null
+Label/fonts/font = SubResource( 4 )
+LineEdit/fonts/font = null
+LinkButton/fonts/font = null
+MenuButton/fonts/font = null
+OptionButton/fonts/font = null
+PopupMenu/fonts/font = null
+PopupMenu/fonts/font_separator = null
+ProgressBar/fonts/font = null
+RichTextLabel/fonts/bold_font = null
+RichTextLabel/fonts/bold_italics_font = null
+RichTextLabel/fonts/italics_font = null
+RichTextLabel/fonts/mono_font = null
+RichTextLabel/fonts/normal_font = null
+TabContainer/fonts/font = null
+Tabs/fonts/font = null
+TextEdit/fonts/font = null
+ToolButton/fonts/font = null
+TooltipLabel/fonts/font = null
+Tree/fonts/font = null
+Tree/fonts/title_button_font = null
+WindowDialog/fonts/title_font = null
